@@ -17,7 +17,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 2. 📦 Pull LLM Model via Ollama
 Install Ollama and run:
-ollama pull mistral
-ollama run mistral
-3. Start the FastAPI Server
-uvicorn main:app --reload
+cmd:ollama pull mistral 
+cmd:ollama run mistral
+3. Start the FastAPI Server 
+cmd: uvicorn main:app --reload
