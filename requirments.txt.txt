@@ -1,0 +1,14 @@
+
+tesseract-ocr
+tesseract-ocr-ben
+pytesseract
+pdf2image
+poppler-utils
+qdrant-client
+sentence-transformers
+fastapi
+uvicorn
+sentence-transformers
+qdrant-client
+requests
+python-dotenvs
