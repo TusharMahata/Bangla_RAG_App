@@ -9,15 +9,20 @@ Language Support	🟢 Bangla
 
 🚀 Setup Instructions
 1. 🔧 Install Dependencies
-bash
-Copy
-Edit
+bash:
 python -m venv venv
+bash:
 source venv/bin/activate
+bash:
 pip install -r requirements.txt
-2. 📦 Pull LLM Model via Ollama
+3. 📦 Pull LLM Model via Ollama
 Install Ollama and run:
-cmd:ollama pull mistral 
-cmd:ollama run mistral
-3. Start the FastAPI Server 
-cmd: uvicorn main:app --reload
+bash:
+ollama pull mistral
+bash:
+ollama run mistral
+5. Start the FastAPI Server
+bash:
+uvicorn main:app --reload
+
+
